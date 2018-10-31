@@ -1,5 +1,4 @@
 class Menu
-
   attr_reader :dishes
 
   def initialize
@@ -9,7 +8,6 @@ class Menu
               "Golden French Fries" => 0.5,
               "Thirst-Quenching Coke" => 0.5,
               "Delightful Root Beer" => 0.5,
-              "Steamy Hot Coffee" => 0.5,
               "Full-Flavour Orange Drink" => 0.5,
               "Refreshingly Cold Milk" => 0.75
             }
