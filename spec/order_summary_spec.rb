@@ -1,8 +1,7 @@
 require 'order_summary'
-
 describe OrderSummary do
 
-  subject(:order_summary) { described_class.new }
+  let(:order_summary) { described_class.new }
 
   context 'order summary' do
 
